@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple ChatBot</title>
+  <link rel="stylesheet" href="chat_bot_style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      🤖 Nupur's Bot
+      <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
+      <button class="clear-btn" onclick="clearChat()">🗑️</button>
+    </div>
+    <div class="chat-box" id="chatBox"></div>
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Type a message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="chat_bot_script.js"></script>
+</body>
+</html>
+<!-- Create a basic chatbot that remembers your name.
+
+Add weather and jokes using real-time APIs.
+
+Style your messages like WhatsApp/Messenger.
+
+Add “bot is typing…” animation with 3 bouncing dots. -->
