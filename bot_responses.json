@@ -1,0 +1,13 @@
+[
+    { "keywords": ["hello", "hi", "hey"], "reply": "👋 Hello! How can I help you?" },
+    { "keywords": ["how are you"], "reply": "😊 I'm doing great, thanks!" },
+    { "keywords": ["name"], "reply": "🤖 I'm ChatBot, your assistant!" },
+    { "keywords": ["bye", "goodbye"], "reply": "👋 Take care!" },
+    { "keywords": ["thanks", "thank you"], "reply": "You're very welcome! 🙏" },
+    { "keywords": ["time"], "reply": "dynamic_time" },
+    { "keywords": ["date"], "reply": "dynamic_date" },
+    { "keywords": ["weather"], "reply": "🌦️ I can't check weather yet, sorry!" },
+    { "keywords": ["joke"], "reply": "😂 Why do JavaScript devs wear glasses? Because they don't C#." },
+    { "keywords": ["help"], "reply": "Try saying hi, asking time/date, or ask for a joke!" }
+  ]
+  
